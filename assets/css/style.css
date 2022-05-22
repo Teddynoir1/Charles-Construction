@@ -301,7 +301,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   #hero::after {
     width: 180%;
     height: 95%;
-    border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
   }
   #hero::before {
@@ -321,7 +320,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     top: 0;
     width: 200%;
     height: 95%;
-    border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
   }
   #hero::before {
@@ -329,8 +327,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     top: 0;
     width: 200%;
     height: 94%;
-    border-radius: 0 0 50% 50%;
-    transform: translateX(-50%) translateY(20px) rotate(4deg);
+    transform: translateX(-50%) translateY(90px) rotate(4deg);
   }
 }
 
@@ -833,7 +830,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #8dbad2;
+  background: #d2c68d;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -905,7 +902,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 50px;
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #468db3;
+  background: #d2c68d;
 }
 #footer .footer-top {
   background: #ffcc00;
