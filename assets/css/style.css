@@ -65,8 +65,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #header .logo h1 {
   font-size: 28px;
-  margin: 0;
-  padding: 4px 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
@@ -89,12 +87,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-.navbar {
-  padding: 0;
-}
  .navbar ul {
   margin: 0;
   padding: 0;
@@ -334,10 +326,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-.section-bg {
-  background-color: #f3f8fa;
-}
-
 .section-title {
   padding-bottom: 30px;
 }
@@ -371,7 +359,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .section-title p {
   margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Our Services
@@ -483,7 +470,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
 }
 .why-us .icon-box .title {
-  margin-left: 95px;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
@@ -502,10 +488,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .why-us .video-box {
   position: relative;
-}
-.why-us .video-box img {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 .why-us .play-btn {
   width: 94px;
@@ -863,19 +845,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 14px;
 }
 #footer .footer-newsletter {
-  padding: 50px 0;
   background: #ffc800;
 }
 #footer .footer-newsletter h4 {
   font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
   line-height: 1;
   font-weight: 600;
   color: #766906;
 }
 #footer .footer-newsletter form {
-  margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
@@ -883,7 +861,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #footer .footer-newsletter form input[type=email] {
   border: 0;
-  padding: 4px;
   width: calc(100% - 100px);
 }
 #footer .footer-newsletter form input[type=submit] {
@@ -910,13 +887,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-bottom: 1px solid #ffb600;
   padding: 60px 0 30px 0;
 }
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
 #footer .footer-top .footer-info h3 {
   font-size: 18px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
   line-height: 1;
   color: #766906;
   font-weight: 600;
@@ -951,15 +923,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 600;
   color: #766906;
   position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
@@ -971,9 +938,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0;
   display: flex;
   align-items: center;
-}
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
   color: #fff;
