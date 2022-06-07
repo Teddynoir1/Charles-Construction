@@ -7,33 +7,57 @@ h1, h2, h3, h4, h5, h6, p {
   color: #000;
 }
 body {
-  background: #ffe0006e;
+  background: #ffffff;
 }
 .btn {
   color: #fff;
-  background-color: #ffb600;
-  border-color: #ca8f0a;
+  background-color: #0071bd;
 }
 .btn:hover {
   color: #fff !important;
-  background-color: #ffb600;
-  border-color: #ca8f0a !important;
+  background-color: #1b1464;
 }
 
+.card {
+  background: #bed4ff;
+}
+
+/* .card-body {
+  background: #f5f5f5;
+} */
+
+.card p {
+  color: #1b1464;
+  font-size: 16px;
+  font-weight: 700;
+}
 .faq .question {
   border-bottom: 2px solid grey;
 }
+/* .freq {
+  background: #bed4ff;
+} */
 
+.freq h2, p {
+  color: #181464;
+  font-size: 16px;
+  font-weight: 700;
 
+}
+
+.foot p {
+  color: #181464
+}
 /* GLOBE ANIMATION */
-@keyframes globe {
-  0% {
-    transform: scale(1);
+@media (max-width: 426px) {
+  .navbar .navbar-brand img{
+    width: 50%;
   }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+
+}
+
+/* #1b1464 */ 
+.mass {
+  color: #1b1464 #0071bd #367ca5;
+
 }
